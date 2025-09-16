@@ -11,3 +11,7 @@ service:
   nodePort: 30000
 
 resources: {}
+
+serviceAccount:
+  create: true
+  name: nginx-app
