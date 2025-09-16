@@ -12,6 +12,3 @@ service:
 
 resources: {}
 
-serviceAccount:
-  create: true
-  name: nginx-app
