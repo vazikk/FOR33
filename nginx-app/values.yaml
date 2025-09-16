@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: "v1"
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 30000
+
+resources: {}
